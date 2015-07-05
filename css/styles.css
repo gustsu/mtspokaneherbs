@@ -9,6 +9,14 @@ body{
 background: #00AEEF;
 }
 
+.footer{
+
+width: 100%;  
+bottom: 0%;
+height: 100px;
+background: darkblue;
+
+}
 #c{
 
 width: 600px; 
