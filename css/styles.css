@@ -1,0 +1,110 @@
+#frontpage{
+
+text-align: center;
+background: #00AEEF;
+}
+
+body{
+
+background: #00AEEF;
+}
+
+#c{
+
+width: 600px; 
+}
+
+.largeblock{
+margin: 0 auto;
+background: darkorange;
+height: 2000px;
+width: 70%;
+}
+#mainimg{
+
+margin: 0 auto;
+width: 500px;
+margin-right: 15px;.
+    
+}
+
+h5{ 
+    position: absolute;
+    left:40%;
+    top:0%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:50pt;
+    color:white;
+display: inline;
+}
+
+nav {
+
+background: orange;
+text-align: center;
+}
+nav a{
+padding-left: 80px;
+margin:0 auto;
+transition: color .5s;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+#smallimg{
+display: block;
+margin: 0 auto;
+width:200px;
+}
+
+h1{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size:40pt;
+    font-weight: 700;
+}
+
+p{
+color:white;
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 30pt;
+}
+
+.b{
+display: inline;
+text-decoration: none;
+margin: 5px;
+padding: 20px;
+background: orange;
+color:white;
+border-radius: 10px;
+transition: background-color .5s;
+
+}
+
+.b:hover{
+opacity: 1;
+background-color: gold;
+text-decoration: none;
+color:white;
+
+    
+}
+
+a:link{
+font-size:20pt;
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+text-decoration: none;
+color:white;
+}
+
+a:visited{
+text-decoration: none;
+color:white;
+}
