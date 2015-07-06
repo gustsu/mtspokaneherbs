@@ -18,7 +18,7 @@ background: darkblue;
 
 }
 #c{
-
+margin-left:  50px;
 width: 600px; 
 }
 
@@ -47,12 +47,21 @@ h5{
 display: inline;
 }
 
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size:36pt;
+    color:white;
+    margin: 30px;
+
+}
+
 nav {
 
 background: orange;
 text-align: center;
 }
 nav a{
+letter-spacing: 2px;
 padding-left: 80px;
 margin:0 auto;
 transition: color .5s;
@@ -62,10 +71,29 @@ nav a:hover{
     color: gray;
 }
 
+.mainblock{
+width: 50%;
+font-size: 20pt;
+}
+
 #smallimg{
 display: block;
 margin: 0 auto;
-width:200px;
+width:250px;
+padding-right: 25px;
+padding-bottom: 20px;
+}
+
+#selected{
+text-decoration: underline;
+}
+
+.inlinelink{
+transition: color .5s;
+}
+
+.inlinelink:hover{
+color: gray;
 }
 
 h1{
