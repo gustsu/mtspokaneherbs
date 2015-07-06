@@ -116,6 +116,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size:40pt;
     font-weight: 700;
+    padding-bottom: 0px;
 }
 
 p{
@@ -123,6 +124,7 @@ color:white;
 font-family: 'Oswald', sans-serif;
 font-weight: 400;
 font-size: 30pt;
+padding-top: 0px;
 }
 
 .b{
@@ -159,3 +161,100 @@ a:visited{
 text-decoration: none;
 color:white;
 }
+
+
+@media (max-width:950px){
+    
+    #mainimg{
+    width: 50%;
+    }
+    .mainblock{
+        font-size: 16pt;
+        width:90%;
+    
+    }
+    #smallimg{
+    
+    padding-right: 0px;
+    }
+    h2{
+    font-size: 22pt;
+    margin: 5px;
+    margin-bottom: 20px;
+    }
+    nav a {
+    padding-left: 20px;
+    }
+
+
+}
+
+
+@media (max-width: 645px){
+        #c{
+            width: 80%;
+        
+        }   
+    
+        .aboutimg{
+        width: 90%;
+        }
+    
+        nav a {
+        padding-left: 10px;
+        
+        }
+
+        a:link{
+        font-size: 14pt;
+        }
+
+
+
+}
+
+
+@media (max-width: 457px){
+        nav a {
+        padding-left: 100px;
+        padding-right: 100px;
+        }
+
+}
+
+@media (max-width: 414px){
+    
+    .b{
+        padding: 5px;
+        margin: 5px;
+    }
+        nav a {
+        padding-left: 90px;
+        padding-right: 90px;
+        }
+    
+        a:link{
+        font-size: 12pt;
+        }
+
+}
+
+@media (max-width: 369px){
+        nav a {
+        padding-left: 70px;
+        padding-right: 70px;
+        }
+
+}
+
+
+
+@media (max-width: 339px){
+        nav a {
+        padding-left: 60px;
+        padding-right: 60px;
+        }
+
+}
+
+

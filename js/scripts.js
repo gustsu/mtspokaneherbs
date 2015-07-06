@@ -9,8 +9,7 @@
 
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
-    autoplayTimeout: 2500,
-    autoplayHoverPause: true,
+    autoplayTimeout: 2000,
     loop:true,
     items: 3,
     nav: true,
